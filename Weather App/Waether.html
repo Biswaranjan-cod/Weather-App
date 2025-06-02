@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="Sky.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Foreground Content -->
+  <div class="container">
+    <h1>Weather App by Biswaranjan</h1>
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button id="searchBtn">Get Weather</button>
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
